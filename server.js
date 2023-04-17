@@ -13,6 +13,10 @@ const io = new Server(server);
 
 app.use(express.static(path.resolve('public')));
 
+io.on('connection', (socket) => {
+    console.log('a user connected');
+});
+
 server.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
