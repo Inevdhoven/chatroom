@@ -1,40 +1,33 @@
 let socket = io();
-let messages = document.querySelector('section ul')
-let input = document.querySelector('input#sendtext')
-
-// const usernameForm = document.getElementById('username-form');
-// const usernameInput = document.getElementById('username');
-
-// usernameForm.addEventListener('submit', e => {
-//     e.preventDefault();
-//     const username = usernameInput.value.trim();
-
-//     socket.emit('join', { username });
-
-//     document.cookie = `username=${username}`;
-//     usernameForm.style.display = 'none';
-//     console.log('joined as:' + username);
-// });
-  
-// socket.on('joined', ({ username }) => { 
-//     console.log(username)
-//     console.log('joined');
-//     document.cookie = `username=${username}`;
-// });
+let messages = document.querySelector('section ul');
+let inputText = document.querySelector('input#message');
+let inputName = document.querySelector('input#name');
+let send = document.querySelector('button#send');
+let typingState = document.querySelector('p');
 
 // send text
 document.querySelector('form').addEventListener('submit', event => {
   event.preventDefault()
-  if (input.value) {
-    socket.emit('message', input.value)
-    input.value = ''
-  }
+  let data = { name: inputName.value, message: inputText.value }
+  socket.emit('chat', data);
+
+  console.log(inputName.value, inputText.value);
+  inputText.value = '';
 })
 
-// received text
-socket.on('message', message => {
-    // console.log("message")
-  messages.appendChild(Object.assign(document.createElement('li'), { textContent: message }))
-  messages.scrollTop = messages.scrollHeight
+inputText.addEventListener('keypress', () => {
+  socket.emit('typing', inputName.value)
 })
 
+socket.on('chat', (data) => {
+  console.log(data);
+  messages.appendChild(Object.assign(document.createElement('li'), { textContent: data.name + ': ' + data.message }))
+  typingState.innerHTML= "";
+})
+socket.on('typing', (inputName) => {
+  console.log(inputName);
+  typingState.innerHTML= ( inputName + " is aan het typen...")
+  setTimeout(() => {
+    typingState.innerHTML= "";
+  }, 3000);
+})

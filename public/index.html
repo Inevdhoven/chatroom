@@ -6,26 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
   <link rel="stylesheet" href="css/styles.css">
-  <title>Chatroom</title>
+  <title>SpeakEasy</title>
 
 </head>
 <body>
   <header>
-    <h1>Chatroom</h1>
+    <h1>SpeakEasy</h1>
   </header>
   <main>
-    <!-- <section>
-      <form id="username-form">
-        <label for="username">Gebruikersnaam:</label>
-        <input type="text" id="username" name="username" required>
-        <button type="submit">Verbinden</button>
-      </form>
-    </section> -->
     <section>
       <ul></ul>
+      <p></p>
       <form>
-        <input type="text" autocomplete="off" id="sendtext" required>
-        <button><span>Send</span></button>
+        <input type="text" placeholder="Naam" id="name" autocomplete="off">
+        <input type="text" placeholder="Message" id="message" autocomplete="off">
+        <button id="send"><span>Send</span></button>
       </form>
     </section>
   </main>
