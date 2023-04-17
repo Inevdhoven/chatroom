@@ -20,6 +20,17 @@ Voor het vak Realtime Web gaan we samen een basic Chatroom app maken. Deze app g
 
 
 ## Taakverdeling
+Voor dit project hebben we de taken verdeeld over de drie teamleden. Hieronder kan je zien welke taken we hebben bedacht en wie ze heeft gedaan.
+
+| Taak | Wie? |
+| --- | --- |
+| Schetsen | Eva, Pip, Ine |
+| Logo SpeakEasy | Pip |
+| Readme | Ine en Pip |
+| Setup project | Ine |
+| CSS | Eva |
+
+
 
 
 ## Schetsen
