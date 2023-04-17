@@ -14,16 +14,23 @@
     <h1>Chatroom</h1>
   </header>
   <main>
+    <!-- <section>
+      <form id="username-form">
+        <label for="username">Gebruikersnaam:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">Verbinden</button>
+      </form>
+    </section> -->
     <section>
       <ul></ul>
       <form>
-        <input type="text" autocomplete="off">
+        <input type="text" autocomplete="off" id="sendtext">
         <button><span>Send</span></button>
       </form>
     </section>
   </main>
   <footer>
-    
+
   </footer>
 
   <script src="/socket.io/socket.io.js"></script>
