@@ -53,6 +53,26 @@ Nadat we allemaal een ontwerp hadden gemaakt zijn we gaan kijken welke we het mo
 ![finaldesign](https://user-images.githubusercontent.com/43877754/232475322-5537541c-ae6d-42e5-9e8d-214fd8c42d60.jpg)
 
 ## Coding style
+Om ervoor te zorgen dat onze code overzichtelijk en netjes is, hebben we een aantal regels opgesteld. Deze regels zijn:
+
+*Html*
+
+- Schrijf semantische HTML en gebruik niet onnodige `<div>`'s
+- Schrijf comments waar nodig om de code te verduidelijken
+- Gebruik regelmatig formatters om de code op te schonen
+
+*CSS*
+
+- Maak gebruik van CSS variabelen
+- Groepeer CSS met comments, alles van hetzelfde onderdeel bij elkaar
+- Gebruik relatieve eenheden voor afmetingen (Rem, em, %, etc.)
+
+*Javascript*
+
+- Gebruik camelCase voor variabelen
+- Gebruik const en let in plaats van var
+- Schrijf comments waar nodig om de code te verduidelijken
+- Gebruik arrow functions
 
 
 ## Installeren
