@@ -41,9 +41,9 @@ Voor het vak Realtime Web gaan we samen een basic Chatroom app maken. Deze app g
 ## Makers
 Deze Chatroom app is gemaakt door:
 
-- Eva Zaadnoordijk
-- Pip Harsveld
-- Ine van den Hoven
+- [Eva Zaadnoordijk](https://github.com/EvaZ7)
+- [Pip Harsveld](https://github.com/PipHarsveld)
+- [Ine van den Hoven](https://github.com/Inevdhoven)
 
 
 ## License
