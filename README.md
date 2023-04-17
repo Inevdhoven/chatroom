@@ -35,15 +35,15 @@ Voor dit project hebben we de taken verdeeld over de drie teamleden. Hieronder k
 ## Schetsen
 Wij hebben in Figma alle drie een eigen ontwerp gemaakt en vervolgens samengevoegd tot één ontwerp. Hieronder kan je de drie verschillende ontwerpen het uiteindelijke ontwerp bekijken.
 
-**Ontwerp 1:**
+**Ontwerp 1 - Eva:**
 
 ![desgin1](https://user-images.githubusercontent.com/43877754/232475289-c7f46b90-ebf0-43ea-bc85-ffba54eb531d.jpg)
 
-**Ontwerp 2:**
+**Ontwerp 2 - Pip:**
 
 ![design2](https://user-images.githubusercontent.com/43877754/232475302-0fbcd601-897d-412e-94f5-fa9bd6d8df13.jpg)
 
-**Ontwerp 3:**
+**Ontwerp 3 - Ine:**
 
 ![design3](https://user-images.githubusercontent.com/43877754/232475309-b6f789b5-d0f9-4a33-97f8-38f0bda636f9.jpg)
 
