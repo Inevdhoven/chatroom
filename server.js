@@ -15,6 +15,19 @@ app.use(express.static(path.resolve('public')));
 
 io.on('connection', (socket) => {
     console.log('a user connected');
+
+    socket.on('message', (message) => {
+        // while (history.length > historySize) {
+        //   history.shift()
+        // }
+        // history.push(message)
+    
+        io.emit('message', message)
+      })
+    
+      socket.on('disconnect', () => {
+        console.log('user disconnected')
+      })
 });
 
 server.listen(port, () => {
