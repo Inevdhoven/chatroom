@@ -3,7 +3,6 @@
 Voor het vak Realtime Web gaan we samen een basic Chatroom app maken. Deze app gaan we maken met Node.js, Express en Socket.io.
 
 (description of our project)
-(Afbeeling van ons werk)
 
 
 
@@ -22,7 +21,7 @@ Voor het vak Realtime Web gaan we samen een basic Chatroom app maken. Deze app g
 
 
 ## Schetsen
-Wij hebben in Figma alle drie een eigen ontwerp gemaakt hieronder kan je de drie verschillende ontwerpen het uiteindelijke ontwerp bekijken.
+Wij hebben in Figma alle drie een eigen ontwerp gemaakt en vervolgens samengevoegd tot één ontwerp. Hieronder kan je de drie verschillende ontwerpen het uiteindelijke ontwerp bekijken.
 
 **Ontwerp 1:**
 
@@ -38,6 +37,7 @@ Wij hebben in Figma alle drie een eigen ontwerp gemaakt hieronder kan je de drie
 
 ### Uiteindelijke ontwerp
 Nadat we allemaal een ontwerp hadden gemaakt zijn we gaan kijken welke we het mooist vinden. Hieruit kwam dat we niet specifiek een konden kiezen, daarom hebben we de drie ontwerpen bij elkaar gevoegd. Zo hebben we van Eva de kleuren gekozen, van Pip de achtergrond en van Ine hebben we het input veld gepakt. Dit is het uiteindelijke ontwerp geworden.
+
 ![finaldesign](https://user-images.githubusercontent.com/43877754/232475322-5537541c-ae6d-42e5-9e8d-214fd8c42d60.jpg)
 
 ## Coding style
