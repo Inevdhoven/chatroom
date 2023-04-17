@@ -1,79 +1,157 @@
-/* :root {
-  --dark: #000;
-  --course: #00B0FC;
-  --light: #fff;
+/*************/
+/* CSS RESET */
+/*************/
+
+/*naar een idee van Jen Simmons*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
+
 body {
-  background-color: var(--dark);
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-  color: var(--light);
-  font-family: monospace;
-  font-size: 1.5em;
-  line-height: 1.5;
   margin: 0;
 }
-main {
-  max-width: 800px;
-  margin: 10vh auto;
+
+button:not([disabled]) {
+  cursor: pointer;
 }
-header {
-  background: var(--course);
-  color: var(--dark);
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+  --background-black: #242424;
+  --frame-black: #5C5C5C;
+  --white: #fff;
+
+  --decoration-orange: #FBB95C;
+  --decoration-pink: #FFD1DC;
+  --decoration-purple: #C1B0E1;
+  --decoration-yellow: #FDFD96;
+  --decoration-green: #CBF3B7;
+}
+
+
+
+/**************/
+/*** BASICS ***/
+/**************/
+body {
+  background-color: var(--background-black);
 }
 h1 {
-  font-size: 5em;
+  background-image: url("../img/logo.png");
+  color: rgba(255, 255, 255, 0);
+  padding: 0.4em;
+  width: 10.5em;
+  margin: 0;
+  margin-top: 0.5em;
+  background-repeat: no-repeat;
 }
-h2 {
-  font-size: 2em;
-  margin-top: 1.5em;
-}
-ul {
+
+
+
+/**************/
+/*** HEADER ***/
+/**************/
+header {
   display: flex;
-  /flex-wrap: wrap;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0;
-  margin: 0 -1rem;
+  justify-content: center;
 }
-ul li {
+
+
+
+/*************/
+/*** MAIN ***/
+/*************/
+/* main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem;
+  max-width: 20em;
+} */
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-ul img {
-  border: 2px solid var(--light);
+main section ul {
+  background-color: var(--frame-black);
+  height: 73dvh;
   margin-top: 2em;
   margin-bottom: 2em;
-}
-img {
-  max-width: 100%;
+  width: 90vw;
+
+  border-radius: 1em;
 }
 
-section#lecturers img {
-  border-radius: 100%;
-  margin-right: 1em;
+/*Message field*/
+main section form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+main section form input {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90vw;
+  border: 0;
+  border-radius: 1em;
+
+  height: 3em;
+  font-size: 1em;
+  padding-left: 1em;
+}
+main section form input:focus {
+  outline: 0.2em solid var(--decoration-purple);
+}
+main section form button {
+  clip-path: polygon(0 0, 100% 50%, 0 100%, 26% 50%);
+  background-color: var(--background-black);
+  color: var(--background-black);
+  width: 2em;
+  position: absolute;
+  right: 1em;
 }
 
-.button {
-  background: var(--light);
-  color: var(--dark);
+/*Messages*/
+section ul {
+  list-style-type: none;
+  padding: 0;
   padding: 1em;
+  overflow-y: scroll;
 }
 
-.examples img {
-  max-width: 25vh;
+::-webkit-scrollbar {
+  background: transparent;
 }
 
-a,
-a:visited {
-  color: var(--course);
+section ul li{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+  background-color: var(--decoration-purple);
+  width: fit-content;
+  border-radius: 1em;
+
+  box-shadow: 0.08em 0.06em 0.1em 0.1em rgb(65, 65, 65);
+  margin-bottom: 2em;
 }
 
-footer {
-  font-style: italic;
-} */
+
+
+/***************/
+/*media queries*/
+/***************/
+
+@media (min-width: 60em) {
+  main section ul {
+    width: 50em;
+  }
+  main section form input {
+    width: 50em;
+  }
+
+}
