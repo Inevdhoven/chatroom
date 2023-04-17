@@ -55,19 +55,19 @@ Nadat we allemaal een ontwerp hadden gemaakt zijn we gaan kijken welke we het mo
 ## Coding style
 Om ervoor te zorgen dat onze code overzichtelijk en netjes is, hebben we een aantal regels opgesteld. Deze regels zijn:
 
-*Html*
+**Html**
 
 - Schrijf semantische HTML en gebruik niet onnodige `<div>`'s
 - Schrijf comments waar nodig om de code te verduidelijken
 - Gebruik regelmatig formatters om de code op te schonen
 
-*CSS*
+**CSS**
 
 - Maak gebruik van CSS variabelen
 - Groepeer CSS met comments, alles van hetzelfde onderdeel bij elkaar
 - Gebruik relatieve eenheden voor afmetingen (Rem, em, %, etc.)
 
-*Javascript*
+**Javascript**
 
 - Gebruik camelCase voor variabelen
 - Gebruik const en let in plaats van var
