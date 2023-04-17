@@ -5,21 +5,53 @@ Voor het vak Realtime Web gaan we samen een basic Chatroom app maken. Deze app g
 (description of our project)
 (Afbeeling van ons werk)
 
+
+
+
+## Table of Contents
+* [Taakverdeling](#taakverdeling)
+* [Schetsen](#schetsen)
+* [Coding style](#coding-style)
+* [Installeren](#installeren)
+* [Gebruik van het project](#gebruik-van-het-project)
+* [Features](#features)
+* [License](#license)
+
+
+## Taakverdeling
+
+
+## Schetsen
+
+
+## Coding style
+
+
+## Installeren
+1. 
+2. 
+3. 
+
+## Hoe gebruik je dit project?
+
+
+## Features
+- [] 
+
+## Makers
 Deze Chatroom app is gemaakt door:
 
 - Eva Zaadnoordijk
 - Pip Harsveld
 - Ine van den Hoven
 
-## Table of Contents
 
-- Wie doet wat?
-- Schetsen
-- Coding style
-- Hoe intalleer je dit project?
-- Hoe gebruik je dit project?
-- Wat zijn de features?
-- License
+## License
+Copyright © 2023 
+
+Dit project is [MIT](https://github.com/Inevdhoven/chatroom/blob/main/LICENSE) licensed.
+
+
 
 <!-- Here are some hints for your project! -->
 
