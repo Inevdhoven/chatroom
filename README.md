@@ -36,7 +36,7 @@ Voor het vak Realtime Web gaan we samen een basic Chatroom app maken. Deze app g
 
 
 ## Features
-- [] 
+- [ ] 
 
 ## Makers
 Deze Chatroom app is gemaakt door:
