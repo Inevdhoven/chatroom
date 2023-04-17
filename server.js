@@ -3,7 +3,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import http from 'http';
 import {Server} from 'socket.io';
-import cookieParser from 'cookie-parser';
+// import cookieParser from 'cookie-parser';
 
 dotenv.config();
 
@@ -12,7 +12,7 @@ const port = process.env.PORT || 4200;
 const server = http.createServer(app);
 const io = new Server(server);
 
-app.use(cookieParser());
+// app.use(cookieParser());
 app.use(express.static(path.resolve('public')));
 
 
