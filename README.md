@@ -1,3 +1,5 @@
+![banner_speakeasy](https://user-images.githubusercontent.com/54938035/232477598-1d0c0726-5f66-4bbb-a7fa-2a31ae7d7f78.svg)
+
 # Chatroom App
 
 Voor het vak Realtime Web gaan we samen een basic Chatroom app maken. Deze app gaan we maken met Node.js, Express en Socket.io.
