@@ -32,7 +32,6 @@ Voor dit project hebben we de taken verdeeld over de drie teamleden. Hieronder k
 
 
 
-
 ## Schetsen
 Wij hebben in Figma alle drie een eigen ontwerp gemaakt en vervolgens samengevoegd tot één ontwerp. Hieronder kan je de drie verschillende ontwerpen het uiteindelijke ontwerp bekijken.
 
@@ -57,15 +56,39 @@ Nadat we allemaal een ontwerp hadden gemaakt zijn we gaan kijken welke we het mo
 
 
 ## Installeren
-1. 
-2. 
-3. 
+Om deze app te gebruiken, moet je deze repository clonen. Je kunt dit doen door het volgende commando in je terminal te typen:
+
+```
+git clone https://github.com/Inevdhoven/chatroom
+```
+
+Na het clonen van de repo, moet je de dependencies installeren. Dit kun je doen door het volgende commando in je terminal te typen:
+
+```
+npm install
+```
+
+Zodra de dependencies zijn geïnstalleerd, kan je naar de projectmap gaan met dit commando:
+
+```
+cd chatroom
+```
+
+Vervolgens kun je de app starten met dit commando:
+
+```
+npm run start
+```
+
+Yes, je bent nu helemaal klaar! Ga naar `http://localhost:4200/` en geniet van SpeakEasy!
+
 
 ## Hoe gebruik je dit project?
 
 
 ## Features
-- [ ] 
+- [X] Verstuur berichten
+- [X] Ontvang berichten van andere gebruikers
 
 ## Makers
 Deze Chatroom app is gemaakt door:
