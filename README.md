@@ -24,10 +24,10 @@ Voor dit project hebben we de taken verdeeld over de drie teamleden. Hieronder k
 
 | Taak | Wie? |
 | --- | --- |
-| Schetsen | Eva, Pip, Ine |
-| Logo SpeakEasy | Pip |
-| Readme | Ine en Pip |
 | Setup project | Ine |
+| Logo | Pip |
+| Readme | Ine en Pip |
+| Design | Eva, Pip, Ine |
 | CSS | Eva |
 
 
