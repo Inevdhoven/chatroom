@@ -107,8 +107,12 @@ Yes, je bent nu helemaal klaar! Ga naar `http://localhost:4200/` en geniet van S
 
 
 ## Features
+- [X] Kies een nickname
 - [X] Verstuur berichten
 - [X] Ontvang berichten van andere gebruikers
+- [X] Zie wanneer een een andere gebruiker aan het typen is
+
+
 
 ## Makers
 Deze Chatroom app is gemaakt door:
