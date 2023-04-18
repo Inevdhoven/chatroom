@@ -23,6 +23,7 @@ socket.on('chat', (data) => {
   console.log(data);
   messages.appendChild(Object.assign(document.createElement('li'), { textContent: data.name + ': ' + data.message }))
   typingState.innerHTML= "";
+  messages.scrollTop = messages.scrollHeight
 })
 
 socket.on('typing', (inputName) => {
