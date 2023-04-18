@@ -24,6 +24,7 @@ socket.on('chat', (data) => {
   messages.appendChild(Object.assign(document.createElement('li'), { textContent: data.name + ': ' + data.message }))
   typingState.innerHTML= "";
 })
+
 socket.on('typing', (inputName) => {
   console.log(inputName);
   typingState.innerHTML= ( inputName + " is aan het typen...")
