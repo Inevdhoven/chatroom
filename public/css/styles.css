@@ -42,14 +42,9 @@ button:not([disabled]) {
 body {
   background-color: var(--background-black);
 }
-h1 {
-  background-image: url("../img/logo.png");
-  color: rgba(255, 255, 255, 0);
-  padding: 0.4em;
-  width: 10.5em;
-  margin: 0;
-  margin-top: 0.5em;
-  background-repeat: no-repeat;
+h1{
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
 
 
